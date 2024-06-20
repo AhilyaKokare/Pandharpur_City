@@ -1,0 +1,22 @@
+/* In your CSS file */
+.shadow-text {
+  text-shadow: 1px 1px 9px rgb(40, 208, 220)
+}
+
+.animate-slide-up {
+  animation: slideUp 1s ease forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
